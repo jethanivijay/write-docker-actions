@@ -2,7 +2,7 @@ FROM node:slim
 
 COPY package*.json ./
 
-RUN npm install -g npm@7.0.6`
+RUN npm install -g npm@7.0.6
 
 COPY . .
 
